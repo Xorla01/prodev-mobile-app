@@ -2,7 +2,7 @@ import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { HEROLOGOGREEN, GOOGLELOGO, FACEBOOKLOGO } from "@/constants";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 
 export default function Index() {
     return(
@@ -79,4 +79,5 @@ export default function Index() {
             </SafeAreaView>
         </SafeAreaProvider>
     );
+
 }
